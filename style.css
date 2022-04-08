@@ -1,0 +1,75 @@
+html {
+    font-size: 10px;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .iframe-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    border: solid red 1px;
+  }
+  
+  .responsive-div {    
+      display: inline-block;
+      position: relative;
+      width: 100%;
+      padding-bottom: 100%;
+      vertical-align: top;
+      overflow: hidden;
+    }
+  
+    .d3-content {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+  
+  @media (max-width: 1024px) {
+      .iframe-container {
+          width: 560px;
+          height: 560px;
+      }
+  
+      html {
+          font-size: 7px;
+      }
+  }
+      
+  @media (max-width: 768px) {
+      .iframe-container {
+          width: 420px;
+          height: 420px;
+      }
+  }
+  
+  @media (max-width: 576px) {
+      .iframe-container {
+          width: 350px;
+          height: 350px;
+      }
+  
+      html {
+          font-size: 6px;
+      }
+  }
+  
+  @media (max-width: 425px) {
+      .iframe-container {
+          width: 240px;
+          height: 240px;
+      }
+  
+      html {
+          font-size: 4px;
+      }
+  }
