@@ -15,7 +15,6 @@ html {
     justify-content: center;
     width: 600px;
     height: 600px;
-    border: solid red 1px;
   }
   
   .responsive-div {    
@@ -68,7 +67,7 @@ html {
           width: 240px;
           height: 240px;
       }
-  
+
       html {
           font-size: 4px;
       }
