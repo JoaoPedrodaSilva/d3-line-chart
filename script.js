@@ -11,9 +11,9 @@ async function generateLineChart() {
     const h = 520
     const margin = {
         top: 60,
-        right: 60,
-        bottom: 45,
-        left: 60
+        right: 10,
+        bottom: 35,
+        left: 50
     }
 
     //scales
