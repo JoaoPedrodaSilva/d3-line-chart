@@ -8,7 +8,7 @@ async function generateLineChart() {
 
     //dimensions
     const w = 600
-    const h = 520
+    const h = 600
     const margin = {
         top: 60,
         right: 10,
